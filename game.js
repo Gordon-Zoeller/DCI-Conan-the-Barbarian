@@ -119,11 +119,11 @@ ${conan.showStatus()}
 
 //Villains
 const frostGiant = new Villain("Frost-Giant", 6, 15, 20, 5); //Health, Might, Damage, Power (Power will be subtracted from Might if the Villain attacks)
-const Gwarunga = new Villain("Gwarunga", 15, 4, 25, 10);
+const gwarunga = new Villain("Gwarunga", 15, 4, 25, 10);
 const giantBlackSpieder = new Villain("Giant Black Spider", 15, 19, 30, 15);
 const thothAmon = new Villain("Thoth-Amon", 15, 25, 35, 20);
 
-const villains = [frostGiant, Gwarunga, giantBlackSpieder, thothAmon];
+const villains = [frostGiant, gwarunga, giantBlackSpieder, thothAmon];
 
 //Fight
 //console.log(conan.restoreMight(villains[0]));
